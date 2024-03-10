@@ -1,0 +1,360 @@
+.arnol{
+  color: white;
+  margin-left: 62px;
+ }
+    .arn{
+      width: 300px;
+      height: 300px;
+      transition: transform 0.3s;
+      object-fit: cover;
+      background-image: url(images/orig.webp);
+      background-size: cover;
+    }
+ 
+    .arn:hover{
+      transform: scale(1.06);
+  
+    }
+    .box{
+      display: inline-block;
+      margin-top: 50px;
+      margin-left: 40px;
+      filter: drop-shadow( 0 0 20px white);     
+    }
+
+   .words{
+    color: white;
+    margin-left: 30px;
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 30px;
+   }
+
+
+   .but{
+    padding: 10px;
+    background-color: aquamarine;
+    color: black;
+    font-weight: 600;
+    border: none;
+    transition: transform 0.3s;
+    transition: filter 0.3s;
+    margin-top: 30px;
+    margin-left: 0px;
+    transition: transform 0.4s;
+    
+   }
+   .but2{
+    width: 100px;
+    padding: 10px;
+    background-color: aquamarine;
+    color: black;
+    font-weight: 600;
+    border: none;
+    transition: transform 0.3s;
+    transition: filter 0.3s;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-left: 5px;
+    transition: transform 0.4s;
+    transform: filter 0.4s;
+   }
+   .but:hover{
+    transform: scale(1.06);
+    filter:drop-shadow( 0 0 8px white) ;
+    transform: translateY(-5px);
+   }
+.but:active{
+  opacity: 0.6;
+}
+.but2:hover{
+    transform: scale(1.06);
+    filter:drop-shadow( 0 0 8px white) ;
+    transform: translateY(-5px);
+   }
+.but2:active{
+  opacity: 0.6;
+}
+
+.main1:hover{
+  background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzNmcXpvdXlyaTcyMXg0c3VxYnlqZHdoNHRwMGNmb2lxZ2czNmhvMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7TtvTUMm9mp20/giphy.gif);
+  background-size: cover;
+}
+.main1,
+.main2 {
+  display: inline-block;
+background-color: rgb(96, 93, 93);
+width: 680px;
+padding-bottom: 20px;
+margin-top: 60px;
+margin-left: 20px;
+border-radius: 5px;
+}
+.main2:hover{
+  background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXVkNHY4b2NpeHZvMjBrczNzbDFlMmUyZndtcjd0YXY2MnE1empzOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IZY2SE2JmPgFG/giphy.gif);
+  background-size: cover;
+}
+
+.main2{
+  margin-left:10px;
+}
+.main3,
+.main4{
+  display: inline-block;
+background-color: rgb(96, 93, 93);
+width: 680px;
+padding-bottom: 20px;
+margin-top: 20px;
+margin-left: 20px;
+border-radius: 5px;
+}
+.main3:hover{
+  background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTVndmd0YzIwcnBzbXExczhrOXdwNWVyZDQ1end4Y213NGpra25jYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JDKxRN0Bvmm2c/giphy.gif);
+  background-size: cover;
+}
+
+
+.main4{
+  display: inline-block;
+background-color: rgb(96, 93, 93);
+width: 680px;
+padding-bottom: 20px;
+margin-top: 20px;
+margin-left: 10px;
+border-radius: 5px;
+}
+.main4:hover{
+  background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDhnc2kweXN4eWxhMm9pYXk0YzVkaXJibWIwZDQ5NnpvcHZreDdkciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dAC1oKY7OQzMQ/giphy.gif);
+ background-size: cover;
+}
+.img1{
+  width: 140px;
+  object-fit: cover;
+}
+.img1:hover{
+  transform: scale(1.03);
+}
+
+.img2{
+  width: 120px;
+  object-fit: cover;
+  
+}
+.img2:hover{
+  transform: scale(1.03);
+}
+
+
+
+.smallphoto{
+display: grid;
+grid-template-columns: 100px 100px;
+row-gap: 8px;
+column-gap:  26px;
+}
+.smallphoto2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 8px;
+  column-gap:8px;
+  }
+
+
+  .tscc{
+    height: 50px;
+    background-color: aquamarine;
+    width: 1378px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 19px;
+  }
+ .name{
+  margin-left: 550px;
+ }
+  
+ .collect2,
+ .collect1{
+  width: 200px;
+  object-fit: cover;
+  margin-left: 10px;
+  border-radius: 5px;
+  filter:drop-shadow( 0 0 8px white) ;
+  transition: transform 0.3s;
+  position: relative;
+}
+.collect3{
+  width: 200px;
+  object-fit: cover;
+  height: 300px;
+  border-radius: 5px;
+  margin-left: 150px;
+  filter:drop-shadow( 0 0 8px white);
+  transition: transform 0.3s;
+  position: relative;
+}
+.collect2{
+  height: 300px;
+}
+
+ .tsccphotos{
+  display: inline-block;
+  width: 760px;
+  position: relative;
+  margin-left: 20px;
+ }
+
+ .first,
+ .second,
+ .third{
+  display: inline-block;
+
+ }
+
+ .first{
+  position: relative;
+  z-index: 3;
+ }
+ .second{
+ position: absolute;
+  left: 180px;
+  z-index: 2;
+ }
+ .second:hover{
+  z-index: 4;
+ }
+ .third{
+  position: relative;
+  z-index: 1;
+ }
+ .third:hover{
+  z-index: 5;
+ }
+ .first:hover{
+  opacity: opacity  0.5;
+ }
+
+
+ .collect3:hover{
+  transform: scale(1.06);
+ }
+ .collect2:hover{
+  transform: scale(1.06);
+
+ }
+ .collect1:hover{
+  transform: scale(1.06);
+ }
+
+
+ .lena{
+  width: 40px;
+  position: absolute;
+  color: white;
+  top:220px;
+  left:35px;
+  font-size: 20px;
+  opacity: 0;
+ }
+.lena:hover{
+  opacity: 0.9;
+}
+
+.thomas{
+  width: 40px;
+  position: absolute;
+  color: white;
+  top:220px;
+  left:180px;
+  font-size: 20px;
+  opacity: 0;
+}
+.thomas:hover{
+  opacity: 0.9;
+}
+
+.tsccpost{
+  display: inline-block;
+}
+
+@media (max-width: 700px) {
+  .head {
+width: 1000px;
+background-color:blueviolet;
+  }
+}
+
+@media (max-width:700px ) {
+  .title {
+   margin: 40px;
+  }
+}
+
+
+@media (max-width:700px ) {
+  .main1 {
+    width: 400px;
+  }
+}
+@media (max-width:700px ) {
+  .main2 {
+    width: 400px;
+    margin-left: 19px;
+    margin-top: 20px;
+  }
+}
+@media (max-width:700px ) {
+  .main3 {
+    width: 400px;
+    margin-left: 19px;
+  }
+}
+@media (max-width:700px ) {
+  .main4 {
+    width: 400px;
+    margin-left: 19px;
+  }
+}
+
+@media (max-width:700px ) {
+  .words {
+    padding-top: 0px;
+  }
+}
+
+@media (max-width:700px ) {
+  .tscc {
+    width: 400px;
+  }
+}
+@media (max-width: 700px) {
+  .name {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .tsccphotos {
+margin-top: 20px;
+width: 580px;
+margin-left: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .second {
+left: 90px;
+  }
+}
+
+@media (max-width: 700px) {
+  .third {
+left: -160px;
+  }
+}
+
+ 
+

@@ -1,0 +1,51 @@
+.tscctv {
+  width: 400px;
+  margin-top: 50px;
+  margin-left: 20px;
+  transition: transform 0.3s;
+  object-fit: cover;
+  filter: drop-shadow( 0 0 20px rgb(83, 83, 215));
+}
+.tscctv:hover{
+     transform: scale(1.06);
+}
+
+.tscctitle{
+  filter: drop-shadow( 0 0 20px rgb(83, 83, 215));
+  display: inline-block;
+  background-color:gray;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+  margin-left: 15px;
+  width: 700px;
+}
+.tsccpar{
+  color: white;
+display: inline-block;
+width: 200px;
+margin-left: 10px;
+vertical-align: top;
+margin-top: 25px;
+font-size: 18px;
+width: 230px;
+}
+
+@media (max-width:700px ) {
+  .tscctitle {
+    width: 405px;
+  }
+}
+
+@media (max-width:700px ) {
+  .tscctv {
+    width: 350px;
+  }
+}
+
+@media (max-width:700px ) {
+  .tsccpar {
+    margin-left: 35px;
+    margin-top: 10px;
+  }
+}
